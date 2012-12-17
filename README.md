@@ -39,6 +39,14 @@ If only there were a straightforward way to install Bundles. Well, this always w
     git clone git://github.com/michaeledgar/protobuf-tmbundle "Protocol Buffers.tmbundle"
     osascript -e 'tell app "TextMate" to reload bundles'
 
+### Installation for Sublime Text 2
+
+    mkdir -p ~/"Library/Application Support/Sublime Text 2/Packages/"
+    cd ~/"Library/Application Support/TextMate/Bundles/"
+    git clone git://github.com/davisford/protobuf-tmbundle.git "Protobuf.tmbundle"
+
+Restart Sublime Text 2
+
 Pretty much all there is to it. All `.proto` files will be picked up by the bundle.
 
 ## Copyright
